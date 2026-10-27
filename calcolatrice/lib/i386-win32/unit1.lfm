@@ -1,0 +1,64 @@
+object Form1: TForm1
+  Left = 1014
+  Height = 313
+  Top = 576
+  Width = 409
+  Caption = 'calcolatrice'
+  ClientHeight = 313
+  ClientWidth = 409
+  Color = clWhite
+  LCLVersion = '4.4.0.0'
+  object Edit1: TEdit
+    Left = 24
+    Height = 23
+    Top = 40
+    Width = 80
+    TabOrder = 0
+  end
+  object Edit2: TEdit
+    Left = 24
+    Height = 23
+    Top = 88
+    Width = 80
+    TabOrder = 1
+  end
+  object Button1: TButton
+    Left = 135
+    Height = 24
+    Top = 39
+    Width = 35
+    Caption = 'x'
+    TabOrder = 2
+    OnClick = Button1Click
+  end
+  object Button2: TButton
+    Left = 136
+    Height = 26
+    Top = 77
+    Width = 34
+    Caption = '+'
+    TabOrder = 3
+    OnClick = Button2Click
+  end
+  object Edit3: TEdit
+    Left = 24
+    Height = 23
+    Top = 144
+    Width = 80
+    TabOrder = 4
+  end
+  object Label1: TLabel
+    Left = 24
+    Height = 15
+    Top = 8
+    Width = 80
+    Caption = 'primo numero '
+  end
+  object Label2: TLabel
+    Left = 24
+    Height = 15
+    Top = 72
+    Width = 90
+    Caption = 'secondo numero'
+  end
+end
